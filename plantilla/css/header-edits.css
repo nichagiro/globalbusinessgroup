@@ -1,0 +1,363 @@
+#mainnav .current-menu-item {
+	border-bottom: 2px solid #D83A3A;
+}
+
+#mainnav li {
+padding: 0 2px;
+margin: 0 12px;
+}
+
+.site-header {
+border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Skills edits */
+
+.skills_percentage_fix .elementor-progress-wrapper {
+	overflow: visible !important;
+}
+
+.skills_percentage_fix .elementor-progress-percentage {
+	margin-top: -20px;
+	padding-right: 0;
+}
+
+/* Icons edits */
+
+.center_icons_fix .elementor-icon-box-wrapper {
+align-items: center !important;
+}
+
+.center_icons_fix .elementor-icon-box-title {
+	line-height: 60px;
+margin-bottom: 15px !important;
+}
+
+/* Our work edits */
+
+.our_work li a {
+	color: #263246;
+padding: 0 2px;
+margin: 0 8px;
+}
+
+.our_work li a:hover, .our_work .active {
+	color: #263246;
+		border-bottom: 2px solid #D83A3A;
+}
+
+.our_work li a {
+		border-bottom: 2px solid transparent;
+}
+
+.our_work li a.active {
+		color: #263246;
+}
+
+.our_work li {
+	background-color: transparent;
+}
+
+.our_work .roll-project.fullwidth .project-item {
+width: 30%;
+margin: 15px;
+}
+
+.our_work .project-title span {
+position: absolute;
+bottom: 0;
+background-color: #fff;
+width: 89%;
+padding: 18px 25px;
+text-align: left;
+margin: 0 0 20px 20px;
+}
+
+.our_work .project-pop {
+	background-color: transparent !important;
+}
+
+/* Testimonials */
+.test_add_quote .fa {
+display: block;
+text-align: center;
+font-size: 4em;
+color: rgba(255,255,255,0.3) !important;
+	margin-bottom: 30px;
+}
+
+.test_add_quote .avatar {
+width: 80px;
+border: 5px solid rgba(255,255,255,0.7);
+}
+
+.test_add_quote .testimonial-position:before {
+	content: '-';
+	margin: 0 5px;
+}
+
+.test_add_quote .testimonial-position {
+	display: inline-block !important;
+text-align: left;
+	width: 51%;
+}
+
+.test_add_quote .testimonial-name {
+text-align: right;
+float: left;
+width: 49%;
+}
+
+.test_add_quote .owl-theme .owl-controls .owl-page span {
+background-color: rgba(255,255,255,0.3);
+	border-color: transparent;
+}
+
+.test_add_quote .owl-theme .owl-controls .owl-page.active span {
+background-color: #fff;
+width: 40px;
+	border-radius: 4px;
+}
+
+/* Team edits */
+.team_hover_edits .team-pop .name, .team_hover_edits .team-pop .pos {
+	display: none;
+}
+
+.team_hover_edits .team-pop .name, .team_hover_edits .team-pop .team-info {
+top: 80% !important;
+}
+
+.team_hover_edits .team-pop .name, .team_hover_edits .team-pop {
+	background-color: transparent !important;
+}
+
+.team_hover_edits .team-social li a {
+color: #000;
+margin-left: 10px;
+height: 40px;
+width: 40px;
+border: none;
+background-color: #fff;
+border-radius: 0;
+	line-height: 42px;
+}
+
+.team_hover_edits .team-pop .team-social li:hover a {
+	color: #fff !important;
+background-color: #D83A3A;
+}
+
+.team_hover_edits .avatar {
+	box-shadow: 0px 11px 40px 0px rgba(79,118,157,0.1);
+}
+
+.team_hover_edits .team-item {
+	padding: 0 25px 0 0 !important;
+}
+
+/* latest_news */
+.latest_news .roll-button {	border: none !important;
+	border-color: transparent !important;
+}
+
+/* footer */
+.footer-widgets {
+padding: 72px 0 62px;
+}
+
+#sidebar-footer {
+	font-size: 14px;
+}
+
+#media_image-3 {
+	margin-bottom: 47px;
+}
+
+#text-3 {
+	font-size: 14px;
+	padding: 0;
+}
+
+#sidebar-footer .col-md-3:first-child {
+width: 338px;
+padding: 0;
+margin-right: 90px;
+}
+
+#sidebar-footer .col-md-3 {
+	width: 18%;
+}
+
+#sidebar-footer .widget-title {
+color: #fff;
+text-transform: none;
+font-size: 20px;
+margin: 0 0 17px 0;
+}
+
+#sidebar-footer .widget-title:after {
+content: '';
+display: block;
+width: 50px;
+height: 3px;
+background-color: #D83A3A;
+margin-top: 17px;
+}
+
+#sidebar-footer .col-md-3:last-child {
+width: 300px;
+}
+
+/* Blog edits */
+#secondary #recent-posts-2 ul li {
+	padding: 20px 0;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#secondary #recent-posts-2 ul li:last-child {
+border-bottom: none;
+}
+
+#secondary #recent-posts-2 ul li a {
+	font-size: 16px;
+line-height: 24px;
+color: #263246;
+display: block;
+margin-bottom: 10px;
+}
+
+#secondary #recent-posts-2 ul li span {
+color: #868990;
+font-size: 13px;
+}
+
+#secondary #categories-2 ul li, #secondary #archives-2 ul li {
+	padding: 0;
+font-size: 16px;
+line-height: 40px;
+color: #868990;
+font-weight: bold;
+}
+
+#secondary .tagcloud a {
+	font-size: 13px !important;
+background-color: #F2F2F2;
+padding: 7px 16px;
+margin: 2px;
+	display: inline-block;
+	word-break: keep-all;
+}
+
+input[type="text"], input[type="email"] {
+color: #868990;
+background-color: #fff;
+border: 1px solid rgba(0,0,0,0.1);
+height: 42px;
+padding: 13px 20px;
+}
+
+input[type="submit"] {
+	width: 100%;
+}
+
+/* Contact Us*/
+
+#contact_us_form input::placeholder, textarea::placeholder {
+	color: #263246;
+}
+
+#contact_three_fields {
+background-color: #FAFAFA;
+border: 1px solid #e5e5e5;
+height: 50px;
+padding: 15px 27px;
+		margin: 0 0 30px 0;
+	width: 31.5%;
+}
+
+span.YourEmail > input {
+	margin: 0 31px 30px 31px !important;
+}
+
+#contact_message {
+	color: #263246;
+background-color: #FAFAFA;
+border: 1px solid #e5e5e5;
+padding: 15px 27px;
+margin: 0 0 30px 0;
+	width: 100%;
+}
+
+#contact_submit {
+	width: auto;
+	padding: 15px 33px;
+	font-size: 14px;
+}
+
+#contact_us_form {
+	text-align: center;
+}
+
+/* Mobile edits */
+
+@media (max-width: 768px) {
+	.our_work .roll-project.fullwidth .project-item {		
+		width: 45.5%;
+}
+	
+#sidebar-footer .col-md-3:first-child {
+width: 45%;
+margin-right: 70px;
+float: left;
+}
+	
+#sidebar-footer .col-md-3 {
+width: 45%;
+float: left;
+}
+	
+	#contact_three_fields, #contact_message {
+margin: 0 30px 30px;
+		width: 90%;
+}
+}
+
+@media (max-width: 479px) {
+.our_work .roll-project.fullwidth .project-item {		
+		width: 93% !important;
+}
+	
+.team_hover_edits .team-item {
+padding: 0 !important;
+}
+	
+#sidebar-footer .col-md-3:first-child {
+width: 100%;
+margin-right: 0;
+}
+	
+#sidebar-footer .col-md-3 {
+width: 100%;
+}
+	
+#sidebar-footer .col-md-3:last-child {
+width: 100%;
+}
+	
+	#contact_three_fields, #contact_message {
+		width: 85%;
+}
+	
+.contact_iconed_list .elementor-icon-box-icon {
+float: left;
+margin-right: 15px !important;
+}
+}
+#mainnav ul ul li {margin:0;}	
+
+/* segundo header edits */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #263246;
+}
