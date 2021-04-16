@@ -1,0 +1,9 @@
+.d-none{
+    display: none;
+}
+
+@media only screen and (min-width:768px){
+    .d-md-block{
+        display: block;
+    }
+}
