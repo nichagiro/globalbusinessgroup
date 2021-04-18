@@ -1,6 +1,6 @@
 /* Head 2 */
-body, #mainnav ul ul a { font-family:Raleway;}
-h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] { font-family:Raleway;}
+body, #mainnav ul ul a { font-family:'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] { font-family:'Roboto', sans-serif;}
 .site-title { font-size:32px; }
 .site-description { font-size:16px; }
 #mainnav ul li a { font-size:15px; }
@@ -62,3 +62,7 @@ body { color:#868990}
 		h5 { font-size: 16px;}
 		h6 { font-size: 14px;}
 	}
+
+p{
+	font-weight: bolder;
+}

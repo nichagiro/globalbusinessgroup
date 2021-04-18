@@ -1,0 +1,26 @@
+/* tablets en adelante */
+@media only screen and (min-width:768px){
+    .d-md-block{
+        display: block;
+    }
+}
+
+/* solo celulares */
+@media only screen and (max-width:767px){
+    .mt-xs-4{
+        margin-top: 4rem;
+    }
+    .border-right-white{
+        border-right: none 0px;
+    }
+    
+}
+
+/* celulares y tablets */
+@media only screen and (max-width:1023px){
+    
+    
+}
+
+
+
