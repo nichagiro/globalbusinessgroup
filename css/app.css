@@ -12,10 +12,6 @@
     margin-right: 2rem;
 }
 
-.border-right-white{
-    border-right: white 5px solid;
-}
-
 .bg-purple{
     background: #663399;
 }
@@ -74,4 +70,71 @@
 /* circulo de fondo icon */
 .elementor-13 .elementor-element.elementor-element-1d85000.elementor-view-stacked .elementor-icon {
     background-color: #753fac5b;
+}
+.mb-3{
+    margin-bottom: 3rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-1{
+    padding: 1rem;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.bg-form{
+    background: url('../img/form.jpg');
+    background-size: cover;
+    height: 650px;
+    background-position: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.formi-input {
+    border-radius: 5rem !important;
+    color: black !important;
+    font-weight: bolder;
+}
+
+.formi-input:focus{
+    border-radius: 1rem !important;
+    outline: 0px !important;
+}
+
+.formi-area {
+    border-radius: 1rem !important;
+    color: black !important;
+    font-weight: bolder;
+    resize: none;
+}
+
+.formi-area:focus{
+    border-radius: 0rem !important;
+    outline: 0px !important;
+}
+
+.btn-formi:hover{
+    border-color: #663399;
+    color:#663399;
 }

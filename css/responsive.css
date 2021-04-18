@@ -3,6 +3,21 @@
     .d-md-block{
         display: block;
     }
+    .d-md-flex{
+        display: flex;
+    }
+    .justify-md-content-center{
+        justify-content: center;
+    }
+    .justify-md-content-evenly{
+        justify-content: space-evenly;
+    }
+    .w-md-82{
+        width: 82%;
+    }
+    .formy-md-h{
+        max-height: 750px;
+    }
 }
 
 /* solo celulares */
@@ -13,14 +28,63 @@
     .border-right-white{
         border-right: none 0px;
     }
-    
+    .p-xs-1{
+        padding: 1rem;
+    }
+    .roll-testimonials .whisper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .w-xs-100{
+        width: 100%;
+    }
+    .footer-widgets {
+        padding:0px;
+    }
+    .pb-xs-4{
+        padding-bottom: 4rem;
+    }
+    .formy-xs-h{
+        max-height: 1000px;
+    }
 }
 
 /* celulares y tablets */
-@media only screen and (max-width:1023px){
-    
-    
+@media only screen and (max-width:992px){
+    .mt-xt-4{
+        margin-top: 4rem;
+    }
 }
+
+/* laptop */
+@media only screen and (min-width:1024px){
+    /* margen en el menu arriba y abajo */
+    .site-header {
+        padding: 0px;
+    }
+    .site-header.float-header {
+        padding: 0px;
+    }  
+    .d-xl-block{
+        display: block;
+    }
+    .border-right-white{
+        border-right: white 5px solid;
+    }
+}
+
+/* PC */
+@media only screen and (min-width:1200px){
+    .d-xlg-block{
+        display: block;
+    }
+    .p-xlg-6{
+        padding-top: 6rem;
+    }
+}
+
+
+
 
 
 
