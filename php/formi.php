@@ -13,16 +13,17 @@ if($email == '' | $name == '' | $msg =='' | $phone =='' | $asunto ==''){
 }   else {
  
 // $to = 'comercial@globalbusinessgroup.co';
-// $subject = "Correo desde pagina web";
-// $message =  "Email: $email".
-//             "\nNombre: $name".
-//             "\nTelefono: $phone".
-//             "\nAsunto: $asunto".
-//             "\nMensaje: $msg";
+$to = 'nichagiro@gmail.com';
+$subject = "Correo desde pagina web";
+$message =  "Email: $email".
+            "\nNombre: $name".
+            "\nTelefono: $phone".
+            "\nAsunto: $asunto".
+            "\nMensaje: $msg";
  
-// $headers = "From:".$name.' <'.$email.'>';
+$headers = "From:".$name.' <'.$email.'>';
  
-// mail($to, $subject, $message, $headers);
+mail($to, $subject, $message, $headers);
  
 echo json_encode (true);
  
