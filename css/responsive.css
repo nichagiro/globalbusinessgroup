@@ -12,8 +12,8 @@
     .justify-md-content-evenly{
         justify-content: space-evenly;
     }
-    .w-md-82{
-        width: 82%;
+    .w-md-70{
+        width: 70%;
     }
     .formy-md-h{
         max-height: 750px;
@@ -55,6 +55,15 @@
         margin-top: 4rem;
     }
 }
+
+/* tablet grande */
+/* celulares y tablets */
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .w-xl-60{
+        width: 60%;
+    }
+}
+
 
 /* laptop */
 @media only screen and (min-width:1024px){

@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="https://lobalbusinessgroup.co/" />
-	<title>Global Business Group</title>
+	<link rel="canonical" href="https://globalbusinessgroup.co/" />
+	<title>Global Business Group | Asesoria Empresarial | Educación</title>
+	<meta name="description" content="Global Business Group SAS, Educación, Obra Civil, Marketing Digital, Desarrollo De Páginas web, Suministros, Asesorias Empresariales, Salud, Animación y Recreación, etc.">
 	<link rel="shortcut icon" href="https://www.globalbusinessgroup.co/wp-content/uploads/2021/03/cropped-LOGO-NEGRO.png" type="image/x-icon">
 	<script src="js/head.js"></script>
 	<link rel="stylesheet" href="css/head.css">
@@ -126,7 +127,7 @@
 																		<div class="elementor-widget-container">
 																			<h3 class="elementor-heading-title elementor-size-default text-white" style="padding: 1rem;">
 																				Global Business Group SAS es una empresa multiservicio con la capacidad de satisfacer las
-																				necesidades en varios campos laborales,
+																				necesidades en varios campos laborales.
 																			</h3>
 																		</div>
 																	</div>
@@ -709,7 +710,7 @@
 |		<div id="sidebar-footer" class="footer-widgets widget-area pb-xs-4" role="complementary" style="background-color: #1a1a1a;">
 			<div class="container">
 				<!-- Formulario de contacto -->
-				<div class="row bg-blue formy-xs-h formy-md-h" style="margin-bottom: 6rem;">
+				<div class="row bg-blue formy-xs-h formy-md-h">
 					<div class="d-lg-flex">
 						<div class="col-12 col-lg-6 p-2 p-xlg-6">
 							<form id="formy">
@@ -734,7 +735,7 @@
 									</div>
 								</div>
 								<div class="mt-4 d-md-flex justify-md-content-evenly">
-									<div class="w-md-82 w-xs-100">
+									<div class="w-xs-100 w-md-70 w-xl-60">
 										<p class="text-white">Mensaje:</p>
 										<textarea class="formi-area" name="msg" style="width: 100%;" required></textarea>
 									</div>
@@ -747,12 +748,21 @@
 								</div>
 								<div class="mt-2 d-md-flex justify-md-content-evenly">
 									<div>
-										<button type="submit" class="bg-purple btn-formi">ENVIAR</button>
+										<button id="envio" class="bg-purple btn-formi">ENVIAR</button>
 									</div>
 								</div>
 							</form>
 						</div>
 						<div class="col-12 col-lg-6 bg-form d-none d-xlg-block"> </div>
+					</div>
+				</div>
+				<!-- alert -->
+				<div style="margin-bottom: 6rem;">
+					<div id="success" style="display: none; width: 100%;" class="bg-purple text-white p-2">
+						<b>El correo se ha enviado.</b>
+					</div>
+					<div id="danger" style="display: none; width: 100%; background-color: rgb(206, 0, 79);" class="p-2 text-white">
+						<b>Ocurrio un error.</b>
 					</div>
 				</div>
 				<div class="sidebar-column col-md-4 text-center text-white border-right-white">
@@ -811,5 +821,6 @@
 	<script type='text/javascript' src='https://demo.athemes.com/sydney/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
 	<script src="js/foot.js"></script>
 	<script src="js/frontend.min.js"></script>
+	<script defer src="js/formy.js"></script>
 </body>
 </html>
