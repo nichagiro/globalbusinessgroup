@@ -47,6 +47,9 @@
     .formy-xs-h{
         max-height: 1000px;
     }
+    .pt-xs-5{
+        padding-top: 5rem;
+    }
 }
 
 /* celulares y tablets */
