@@ -8,7 +8,7 @@ envio.addEventListener('click',function (e) {
 
     const form = new FormData(formy);
 
-    fetch('php/formi.php',{
+    fetch('https://globalbusinessgroup.co/wp-content/plantilla-modify/php/formi.php',{
         body:form,
         method:'post'
     })
